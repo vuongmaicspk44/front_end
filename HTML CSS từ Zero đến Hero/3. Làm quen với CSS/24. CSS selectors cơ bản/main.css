@@ -1,0 +1,7 @@
+.title {
+    color: rebeccapurple;
+}
+
+.title.heading {
+    color: red;
+}

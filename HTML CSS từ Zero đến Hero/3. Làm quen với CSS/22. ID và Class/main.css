@@ -1,0 +1,9 @@
+/* Khi select đến id thì sử dụng dấu # */
+#first-heading {
+    color: red;
+}
+
+/* Khi select đến class thì sử dụng dấu chấm */
+.second-heading {
+    color: blue;
+}
