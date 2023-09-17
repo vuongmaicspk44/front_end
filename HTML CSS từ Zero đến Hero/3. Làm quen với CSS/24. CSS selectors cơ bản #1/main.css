@@ -2,6 +2,10 @@
     color: rebeccapurple;
 }
 
-.title.heading {
+.box .title.heading {
     color: red;
+}
+
+p {
+    color: chocolate;
 }

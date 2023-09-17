@@ -1,0 +1,17 @@
+/* để sử dụng CSS Variable chúng ta cần đặt sử dụng lớp giả root */
+/* Pseudo Class */
+/* Đây là biến global sử dụng ở đâu cũng được */
+:root {
+    --text-color: red;
+}
+
+h1 {
+    /* var() là css function */
+    color: var(--text-color);
+}
+
+h2 {
+    /* Đây là biến local sử dụng trong cặp ngoặc nhọn {} */
+    --my-color: green;
+    color: var(--my-color);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .box {
+            width: calc(100px + 20px + 100px);
+            height: 20rem;
+            background: rgba(162, 136, 20, 0.31);
+        }
+        a::after {
+            content: " ("attr(href)")";
+        }
+        .box::after {
+            content: attr(data-title);
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com" target="_blank">Học lập trình</a>
+    <div class="box" data-title="Cristiano Ronaldo Siu"></div>
+    <div>
+        <h1>CSS Functions</h1>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr()</li>
+        </ul>
+    </div>
+</body>
+</html>

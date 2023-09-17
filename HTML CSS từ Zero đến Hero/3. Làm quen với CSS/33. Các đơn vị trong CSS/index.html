@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .note {
+            color: red;
+            font-weight: bold;
+        }
+        html {
+            font-size: 40px;
+        }
+        .box {
+            width: 50%;
+            height: 10vh;
+            background-color: red;
+        }
+        h1 {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div>
+        <h1>CSS Units</h1>
+        <p>- CSS units là những đơn vị được sử trong css để tùy chỉnh kích thước của những đối tượng trong website</p>
+        <p>- Những CSS Units hay được sử dụng <b style="color: red;">px, %, rem, em, vw, vh</b></p>
+        <h2>1. Absolute units - những đơn vị tuyệt đối</h2>
+        <ul>
+            <li>px</li>
+            <p>với màn hình độ phân giải thấp 1px tương đương với 1 điểm ảnh trên màn hình <br> màn hình độ phân giải càng cao thì 1px càng tương đương với nhiều điểm ảnh</p>
+            <li>pt</li>
+            <li>cm</li>
+            <li>mm</li>
+            <li>inch</li>
+            <li>pc</li>
+        </ul>
+        <h2>2. Relative units- những đơn vị tương đối</h2>
+        <ul>
+            <li>%</li>
+            <li>rem</li>
+            <p>- rem sẽ phụ thuộc vào thẻ html</p>
+            <li>em</li>
+            <p>- <b class="note">em</b> sẽ phụ thuộc vào thẻ gần nhất chứa nó mà chứa thuộc tính font-size <br>
+            - Trong thực tế ta sẽ sử dụng <span class="note">rem</span> nhiều hơn vì nó dễ kiểm soát khi chỉ phục thuộc vào thẻ <span class="note">html</span></p>
+            <p>- Thực tế ta sẽ để css thẻ html font-size: 100% tương đương với 16px(mặc định trình duyệt) và <span class="note">sử dụng css unit rem</span></p>
+            <li>vw</li>
+            <p>viewport width</p>
+            <li>vh</li>
+            <p>viewport height</p>
+            <li>vmin</li>
+            <li>vmax</li>
+            <li>ex</li>
+            <li>ch</li>
+        </ul>
+    </div>
+</body>
+</html>

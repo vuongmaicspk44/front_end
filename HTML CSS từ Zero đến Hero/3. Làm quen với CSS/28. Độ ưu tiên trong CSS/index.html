@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        h1#heading-id.heading-class {
+            color: red;
+        }
+        #heading-id {
+            color: violet;
+        }
+        h1 {
+            color: green
+        }
+        .heading-class {
+            color: yellow
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="heading-id" class="heading-class">Priority</h1>
+        <ol>
+            <li>Internal, External?</li>
+            <p>- Không có cách nào ưu tiên hơn. Cách nào gọi sau thì sẽ CSS theo cách đó</p>
+            <p>- Gọi theo tagname là gọi thẳng theo tên của thẻ</p>
+            <li>Inline - 1000</li>
+            <li>#id - 100</li>
+            <li>.class - 10</li>
+            <li>.tag - 1</li>
+            <li>Equal specificity?</li>
+            <li>Universal selector and inherited?</li>
+        </ol>
+    </div>
+</body>
+</html>

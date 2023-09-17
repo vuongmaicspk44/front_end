@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 50%;
+            height: 150px;
+            background-color: pink;
+        }
+        .box::before {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }
+        .box::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }
+        h1::first-letter {
+            font-size: 50px;
+        }
+        p::first-line {
+            color: red;
+        }
+        h1::selection {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        <h1>CSS pseudo-element - Phần tử giả</h1>
+        <p>- Tạo thêm phần tử sử dụng CSS mà không cần sử dụng html <br>- Day la dong thu 2</p>
+        <ul>
+            <li>::before</li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection</li>
+        </ul>
+    </div>
+</body>
+</html>
